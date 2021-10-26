@@ -1,0 +1,5 @@
+How new taxes could be added to the system
+The task was executed by creating a service class where I have included all of the calculations needed separated in different methods for each type of tax which has to be payed. The class can always be expanded by including another method containing another tax payment calculation. But this is for the simple version which you see now. 
+
+Another way we can make the code more elegant and efficient is by including interfaces. Separating the methods in four different service classes and assigning them an interface which will have only one changable part. Which will mean that if someone is to change the highest payment it will have to be changed only in one place which will be helpful with reducing the coupling between the classes and the main method. 
+
